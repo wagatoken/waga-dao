@@ -30,85 +30,85 @@ export default function RoadmapPage() {
     {
       year: "2025",
       quarter: "Q3 (Sep)",
-      title: "Foundation & Pilot",
+      title: "Foundation & Launch",
       status: "active",
       color: "amber",
       items: [
         "DAO treasury formation with initial PAXG/XAUT",
         "Smart contract deployment and auditing",
-        "Cameroon community engagement and mapping",
-        "Ethiopia cooperative MOU signing",
-        "Mobile app MVP development",
+        "Swiss non-profit registration and compliance",
+        "Community building and early supporter onboarding",
+        "Initial website and documentation launch",
       ],
     },
     {
-      year: "2025",
-      quarter: "Q4",
-      title: "Infrastructure Development",
+      year: "2025-2026",
+      quarter: "Q4-Q2",
+      title: "Planning & Partnership",
       status: "upcoming",
       color: "green",
       items: [
-        "First USDC loans deployed to cooperatives",
-        "AI verification system beta testing",
-        "Blockchain traceability pilot program",
-        "Processing facility construction begins",
-        "Farmer training program launch",
+        "Cooperative identification and engagement in Ethiopia/Cameroon",
+        "Site visits and community needs assessment",
+        "MOU negotiations and legal framework establishment",
+        "Mobile app design and initial development",
+        "AI verification system research and planning",
       ],
     },
     {
       year: "2026",
-      quarter: "Q1",
-      title: "Production Integration",
+      quarter: "Q3",
+      title: "Infrastructure Development",
       status: "upcoming",
       color: "emerald",
       items: [
+        "First USDC loans deployed to cooperatives",
+        "Processing facility construction begins",
+        "Blockchain traceability pilot program launch",
+        "Farmer training program implementation",
+        "Quality certification system development",
+      ],
+    },
+    {
+      year: "2026",
+      quarter: "Q4",
+      title: "Production Integration",
+      status: "upcoming",
+      color: "blue",
+      items: [
         "First inventory tokens minted",
-        "Quality certification system live",
+        "Mobile app public release and farmer onboarding",
+        "AI verification system beta testing",
         "Direct trade partnerships established",
-        "Mobile app public release",
         "Community governance activation",
       ],
     },
     {
-      year: "2026",
-      quarter: "Q2",
+      year: "2027",
+      quarter: "Q1-Q2",
       title: "Market Entry",
-      status: "upcoming",
-      color: "blue",
+      status: "future",
+      color: "purple",
       items: [
         "First certified coffee batches to market",
         "Premium pricing tier implementation",
         "International buyer onboarding",
         "Revenue sharing mechanism launch",
-        "Expansion planning for 2027",
-      ],
-    },
-    {
-      year: "2026-2027",
-      quarter: "Full Years",
-      title: "Scale & Optimize",
-      status: "future",
-      color: "purple",
-      items: [
-        "1,000+ farmers actively participating",
-        "500 tons of certified coffee produced",
-        "Second location expansion (Ghana/Kenya)",
-        "Advanced AI features deployment",
-        "Carbon credit integration",
+        "Second location expansion planning",
       ],
     },
     {
       year: "2028-2030",
       quarter: "Long Term",
-      title: "Continental Impact",
+      title: "Scale & Continental Impact",
       status: "future",
       color: "indigo",
       items: [
-        "4,000+ farmers across 5 countries",
-        "2,400 tons annual production capacity",
-        "$195M cumulative economic impact",
-        "Full supply chain digitization",
-        "Model replication across Africa",
+        "1,000+ farmers actively participating",
+        "500+ tons of certified coffee produced annually",
+        "Expansion to Ghana, Kenya, and additional countries",
+        "Advanced AI features and carbon credit integration",
+        "$100M+ cumulative economic impact across Africa",
       ],
     },
   ]
@@ -413,7 +413,7 @@ export default function RoadmapPage() {
                 </div>
                 <div className="text-2xl font-bold text-amber-600 mb-2">Sep 2025</div>
                 <div className="text-sm text-gray-600 mb-2">Launch</div>
-                <div className="text-xs text-gray-500">Foundation & Pilot phase</div>
+                <div className="text-xs text-gray-500">Foundation & DAO establishment</div>
               </CardContent>
             </Card>
 
@@ -422,7 +422,7 @@ export default function RoadmapPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-4 transition-all duration-300 group-hover:scale-110">
                   <Users className="h-6 w-6 text-white" />
                 </div>
-                <div className="text-2xl font-bold text-green-600 mb-2">Q4 2025</div>
+                <div className="text-2xl font-bold text-green-600 mb-2">Q3 2026</div>
                 <div className="text-sm text-gray-600 mb-2">First Loans</div>
                 <div className="text-xs text-gray-500">USDC deployment to cooperatives</div>
               </CardContent>
@@ -433,7 +433,7 @@ export default function RoadmapPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-xl flex items-center justify-center mx-auto mb-4 transition-all duration-300 group-hover:scale-110">
                   <Coffee className="h-6 w-6 text-white" />
                 </div>
-                <div className="text-2xl font-bold text-emerald-600 mb-2">Q2 2026</div>
+                <div className="text-2xl font-bold text-emerald-600 mb-2">Q1 2027</div>
                 <div className="text-sm text-gray-600 mb-2">First Harvest</div>
                 <div className="text-xs text-gray-500">Certified coffee to market</div>
               </CardContent>
@@ -444,7 +444,7 @@ export default function RoadmapPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4 transition-all duration-300 group-hover:scale-110">
                   <TrendingUp className="h-6 w-6 text-white" />
                 </div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">2027</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">2028+</div>
                 <div className="text-sm text-gray-600 mb-2">Scale Up</div>
                 <div className="text-xs text-gray-500">1,000+ farmers participating</div>
               </CardContent>
@@ -453,91 +453,83 @@ export default function RoadmapPage() {
         </div>
       </section>
 
-      {/* Progress Tracking */}
+      {/* Next Steps */}
       <section className="py-20 px-6 bg-gradient-to-br from-white/60 via-green-50/60 to-emerald-100/80 relative">
         <div className="absolute inset-0 bg-gradient-to-r from-green-800/5 to-emerald-900/5"></div>
         <div className="container mx-auto max-w-6xl relative">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-amber-700 to-green-700 bg-clip-text text-transparent">
-              Current Progress
+              Next Steps
             </h2>
-            <p className="text-xl text-gray-600">Track our real-time development status</p>
+            <p className="text-xl text-gray-600">Key actions to launch WAGA DAO in September 2025</p>
           </div>
 
           <Card className="bg-white/80 backdrop-blur-sm border-green-200 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105">
             <CardContent className="p-8">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-2xl font-bold text-green-700 mb-6">Development Metrics</h3>
+                  <h3 className="text-2xl font-bold text-green-700 mb-6">Pre-Launch Priorities</h3>
                   <div className="space-y-4">
-                    <div>
-                      <div className="flex justify-between mb-2">
-                        <span className="text-sm font-medium text-gray-700">Smart Contracts</span>
-                        <span className="text-sm text-green-600">85%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-green-600 h-2 rounded-full" style={{ width: "85%" }}></div>
+                    <div className="flex items-start space-x-3">
+                      <Clock className="h-5 w-5 text-amber-600 mt-0.5" />
+                      <div>
+                        <div className="font-medium text-gray-800">Smart Contract Development</div>
+                        <div className="text-sm text-gray-600">Design and audit treasury, governance, and inventory token contracts</div>
                       </div>
                     </div>
-                    <div>
-                      <div className="flex justify-between mb-2">
-                        <span className="text-sm font-medium text-gray-700">Mobile App</span>
-                        <span className="text-sm text-amber-600">60%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-amber-600 h-2 rounded-full" style={{ width: "60%" }}></div>
+                    <div className="flex items-start space-x-3">
+                      <Clock className="h-5 w-5 text-blue-600 mt-0.5" />
+                      <div>
+                        <div className="font-medium text-gray-800">Community Building</div>
+                        <div className="text-sm text-gray-600">Establish early supporter community and governance framework</div>
                       </div>
                     </div>
-                    <div>
-                      <div className="flex justify-between mb-2">
-                        <span className="text-sm font-medium text-gray-700">AI Verification</span>
-                        <span className="text-sm text-blue-600">40%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-blue-600 h-2 rounded-full" style={{ width: "40%" }}></div>
+                    <div className="flex items-start space-x-3">
+                      <Clock className="h-5 w-5 text-green-600 mt-0.5" />
+                      <div>
+                        <div className="font-medium text-gray-800">Gold Treasury Setup</div>
+                        <div className="text-sm text-gray-600">Secure initial PAXG/XAUT contributions for treasury foundation</div>
                       </div>
                     </div>
-                    <div>
-                      <div className="flex justify-between mb-2">
-                        <span className="text-sm font-medium text-gray-700">Community Onboarding</span>
-                        <span className="text-sm text-emerald-600">25%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-emerald-600 h-2 rounded-full" style={{ width: "25%" }}></div>
+                    <div className="flex items-start space-x-3">
+                      <Clock className="h-5 w-5 text-purple-600 mt-0.5" />
+                      <div>
+                        <div className="font-medium text-gray-800">Legal Framework</div>
+                        <div className="text-sm text-gray-600">Finalize Swiss non-profit structure and compliance requirements</div>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-bold text-amber-700 mb-6">Recent Updates</h3>
+                  <h3 className="text-2xl font-bold text-amber-700 mb-6">Cooperative Engagement</h3>
                   <div className="space-y-4">
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                      <Clock className="h-5 w-5 text-emerald-600 mt-0.5" />
                       <div>
-                        <div className="font-medium text-gray-800">Treasury Contract Deployed</div>
-                        <div className="text-sm text-gray-600">Multi-sig wallet with PAXG integration</div>
+                        <div className="font-medium text-gray-800">Ethiopia Partnership</div>
+                        <div className="text-sm text-gray-600">Identify and engage highland cooperatives for pilot program</div>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
+                      <Clock className="h-5 w-5 text-orange-600 mt-0.5" />
                       <div>
-                        <div className="font-medium text-gray-800">Cameroon Site Visit Completed</div>
-                        <div className="text-sm text-gray-600">Community mapping and needs assessment</div>
+                        <div className="font-medium text-gray-800">Cameroon Outreach</div>
+                        <div className="text-sm text-gray-600">Connect with Bamendakwe region farming communities</div>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <Clock className="h-5 w-5 text-amber-600 mt-0.5" />
+                      <Clock className="h-5 w-5 text-indigo-600 mt-0.5" />
                       <div>
-                        <div className="font-medium text-gray-800">Ethiopia MOU Negotiations</div>
-                        <div className="text-sm text-gray-600">Finalizing agreements with cooperatives</div>
+                        <div className="font-medium text-gray-800">Infrastructure Planning</div>
+                        <div className="text-sm text-gray-600">Design processing facilities and quality verification systems</div>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <Clock className="h-5 w-5 text-blue-600 mt-0.5" />
+                      <Clock className="h-5 w-5 text-red-600 mt-0.5" />
                       <div>
-                        <div className="font-medium text-gray-800">Mobile App Beta Testing</div>
-                        <div className="text-sm text-gray-600">Internal testing with core features</div>
+                        <div className="font-medium text-gray-800">Mobile App Design</div>
+                        <div className="text-sm text-gray-600">Create farmer-friendly interface for blockchain interactions</div>
                       </div>
                     </div>
                   </div>
