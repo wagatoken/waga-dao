@@ -184,11 +184,6 @@ All components are built with accessibility and customization in mind.
 ## 📞 Contact & Community
 
 - **Email**: [team@wagatoken.io](mailto:team@wagatoken.io)
-- **Website**: [wagadao.io](https://wagadao.io)
-- **LinkedIn**: [company/wagadao](https://linkedin.com/company/wagadao)
-- **Telegram**: [t.me/wagadao](https://t.me/wagadao)
-- **Twitter**: [@wagadao](https://twitter.com/wagadao)
-- **Discord**: [discord.gg/wagadao](https://discord.gg/wagadao)
 
 ## 📋 Roadmap
 
