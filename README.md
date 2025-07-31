@@ -204,31 +204,21 @@ All components are built with accessibility and customization in mind.
 
 ## 🏆 Impact Metrics
 
-### 2025 Targets
+### 2025/2026 Targets
 - **$19.5M** USDC deployed to cooperatives
 - **$30M** Gold treasury established
 - **1,000+** Farmers supported
-- **50+** Cooperatives integrated
+
 
 ### Full Scale Vision (2030)
 - **$500M+** Total economic impact
 - **10,000+** Farmers empowered
-- **500+** Cooperatives connected
 - **Carbon Negative** coffee production
 
 ## 📄 License
 
 This project is part of WAGA DAO, a Swiss non-profit association dedicated to regenerating African economies.
 
-## 🙏 Acknowledgments
-
-Special thanks to:
-- African coffee cooperatives for their partnership
-- The blockchain community for technical innovation
-- Supporters who believe in sustainable agriculture
-- Contributors to the open-source ecosystem
-
----
 
 **🌱 Regenerating African Economies • ☕ Premium Coffee • 🔗 Blockchain Technology • 🌍 Global Impact**
 
