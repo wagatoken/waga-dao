@@ -98,7 +98,7 @@ export default function WagaDAOLanding() {
       <nav className="fixed top-0 w-full z-50 bg-gradient-to-r from-green-800 to-emerald-900 backdrop-blur-md border-b border-emerald-700/50 transition-all duration-300">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-green-500 rounded-xl flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+            <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-green-500 rounded-xl flex items-center justify-center transition-transform duration-300 group- group-hover:rotate-12">
               <Coffee className="h-6 w-6 text-white" />
             </div>
             <span className="text-2xl font-bold text-white">WAGA DAO</span>
@@ -176,7 +176,7 @@ export default function WagaDAOLanding() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-amber-500 to-green-600 hover:from-amber-600 hover:to-green-700 text-white shadow-xl px-8 py-4 text-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl animate-pulse-slow"
+              className="bg-gradient-to-r from-amber-500 to-green-600 hover:from-amber-600 hover:to-green-700 text-white shadow-xl px-8 py-4 text-lg transform transition-all duration-300  hover:shadow-2xl animate-pulse-slow"
             >
               <Heart className="mr-2 h-5 w-5" />
               Support Our Mission
@@ -185,7 +185,7 @@ export default function WagaDAOLanding() {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-green-300 text-green-700 hover:bg-green-50 px-8 py-4 text-lg bg-white/50 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="border-2 border-green-300 text-green-700 hover:bg-green-50 px-8 py-4 text-lg bg-white/50 transform transition-all duration-300  hover:shadow-xl"
             >
               <Play className="mr-2 h-5 w-5" />
               Watch Story
@@ -194,25 +194,25 @@ export default function WagaDAOLanding() {
 
           {/* Animated Impact Numbers */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            <div className="text-center transform transition-all duration-700 hover:scale-110">
+            <div className="text-center transform transition-all duration-700 ">
               <div className="text-4xl font-bold text-amber-600 mb-2 transition-all duration-1000">
                 ${animatedNumbers.impact}M
               </div>
               <div className="text-sm text-gray-600">Projected Impact by 2030</div>
             </div>
-            <div className="text-center transform transition-all duration-700 hover:scale-110">
+            <div className="text-center transform transition-all duration-700 ">
               <div className="text-4xl font-bold text-green-600 mb-2 transition-all duration-1000">
                 {animatedNumbers.farmers.toLocaleString()}+
               </div>
               <div className="text-sm text-gray-600">Target Farmers by 2030</div>
             </div>
-            <div className="text-center transform transition-all duration-700 hover:scale-110">
+            <div className="text-center transform transition-all duration-700 ">
               <div className="text-4xl font-bold text-emerald-600 mb-2 transition-all duration-1000">
                 {animatedNumbers.cooperatives}+
               </div>
               <div className="text-sm text-gray-600">Target Cooperatives</div>
             </div>
-            <div className="text-center transform transition-all duration-700 hover:scale-110">
+            <div className="text-center transform transition-all duration-700 ">
               <div className="text-4xl font-bold text-amber-600 mb-2 transition-all duration-1000">
                 {animatedNumbers.year}
               </div>
@@ -234,9 +234,9 @@ export default function WagaDAOLanding() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="bg-white/80 backdrop-blur-sm border-amber-200 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-4 hover:rotate-1 group">
+            <Card className="bg-white/80 backdrop-blur-sm border-amber-200 shadow-xl hover:shadow-2xl transition-all duration-500 group">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-300 group- group-hover:rotate-12">
                   <Coins className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-amber-700 mb-4 group-hover:text-amber-600 transition-colors">
@@ -251,9 +251,9 @@ export default function WagaDAOLanding() {
               </CardContent>
             </Card>
 
-            <Card className="bg-white/80 backdrop-blur-sm border-green-200 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-4 hover:-rotate-1 group">
+            <Card className="bg-white/80 backdrop-blur-sm border-green-200 shadow-xl hover:shadow-2xl transition-all duration-500 group">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-300 group- group-hover:rotate-12">
                   <Coffee className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-green-700 mb-4 group-hover:text-green-600 transition-colors">
@@ -268,9 +268,9 @@ export default function WagaDAOLanding() {
               </CardContent>
             </Card>
 
-            <Card className="bg-white/80 backdrop-blur-sm border-emerald-200 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-4 hover:rotate-1 group">
+            <Card className="bg-white/80 backdrop-blur-sm border-emerald-200 shadow-xl hover:shadow-2xl transition-all duration-500 group">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-all duration-300 group- group-hover:rotate-12">
                   <Users className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-emerald-700 mb-4 group-hover:text-emerald-600 transition-colors">
@@ -298,11 +298,11 @@ export default function WagaDAOLanding() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
-            <Card className="bg-gradient-to-br from-amber-50 to-orange-50 border-amber-200 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105 group overflow-hidden">
+            <Card className="bg-gradient-to-br from-amber-50 to-orange-50 border-amber-200 shadow-xl hover:shadow-2xl transition-all duration-500  group overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-amber-400/10 to-orange-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <CardContent className="p-8 relative z-10">
                 <div className="flex items-center mb-6">
-                  <MapPin className="h-6 w-6 text-amber-600 mr-3 transition-transform duration-300 group-hover:scale-125" />
+                  <MapPin className="h-6 w-6 text-amber-600 mr-3 transition-transform duration-300 group-" />
                   <h3 className="text-2xl font-bold text-amber-700">Bamendakwe, Cameroon</h3>
                 </div>
                 <p className="text-gray-700 mb-4">Post-conflict zone requiring full infrastructure development</p>
@@ -313,11 +313,11 @@ export default function WagaDAOLanding() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gradient-to-br from-green-50 to-emerald-50 border-green-200 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105 group overflow-hidden">
+            <Card className="bg-gradient-to-br from-green-50 to-emerald-50 border-green-200 shadow-xl hover:shadow-2xl transition-all duration-500  group overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-green-400/10 to-emerald-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <CardContent className="p-8 relative z-10">
                 <div className="flex items-center mb-6">
-                  <MapPin className="h-6 w-6 text-green-600 mr-3 transition-transform duration-300 group-hover:scale-125" />
+                  <MapPin className="h-6 w-6 text-green-600 mr-3 transition-transform duration-300 group-" />
                   <h3 className="text-2xl font-bold text-green-700">Highland Ethiopia</h3>
                 </div>
                 <p className="text-gray-700 mb-4">Existing cooperatives ready for digital integration</p>
@@ -339,7 +339,7 @@ export default function WagaDAOLanding() {
         <div className="absolute bottom-10 right-10 w-32 h-32 bg-green-400/20 rounded-full blur-xl animate-pulse delay-1000"></div>
 
         <div className="container mx-auto max-w-4xl text-center relative z-10">
-          <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-12 shadow-2xl border border-emerald-200 transform transition-all duration-500 hover:scale-105">
+          <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-12 shadow-2xl border border-emerald-200 transform transition-all duration-500 ">
             <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-amber-700 to-green-700 bg-clip-text text-transparent">
               Support Regenerative Agriculture
             </h2>
@@ -350,14 +350,14 @@ export default function WagaDAOLanding() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-amber-500 to-green-600 hover:from-amber-600 hover:to-green-700 text-white shadow-xl px-12 py-4 text-lg transform transition-all duration-300 hover:scale-110 hover:shadow-2xl group"
+                className="bg-gradient-to-r from-amber-500 to-green-600 hover:from-amber-600 hover:to-green-700 text-white shadow-xl px-12 py-4 text-lg transform transition-all duration-300  hover:shadow-2xl group"
               >
                 <Heart className="mr-2 h-5 w-5 group-hover:animate-pulse" />
                 Early Supporter Access
               </Button>
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-green-700 to-emerald-800 hover:from-green-800 hover:to-emerald-900 text-white shadow-xl px-12 py-4 text-lg transform transition-all duration-300 hover:scale-110 hover:shadow-2xl group"
+                className="bg-gradient-to-r from-green-700 to-emerald-800 hover:from-green-800 hover:to-emerald-900 text-white shadow-xl px-12 py-4 text-lg transform transition-all duration-300  hover:shadow-2xl group"
               >
                 <Coins className="mr-2 h-5 w-5 group-hover:animate-spin" />
                 Join Waitlist
@@ -376,7 +376,7 @@ export default function WagaDAOLanding() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-3 mb-6 md:mb-0 group">
-              <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-green-500 rounded-xl flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+              <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-green-500 rounded-xl flex items-center justify-center transition-transform duration-300 group- group-hover:rotate-12">
                 <Coffee className="h-6 w-6 text-white" />
               </div>
               <span className="text-2xl font-bold">WAGA DAO</span>
@@ -386,7 +386,7 @@ export default function WagaDAOLanding() {
               {/* Contact Email */}
               <a
                 href="mailto:team@wagatoken.io"
-                className="hover:text-amber-300 transition-all duration-300 hover:scale-105 text-center"
+                className="hover:text-amber-300 transition-all duration-300  text-center"
               >
                 team@wagatoken.io
               </a>
@@ -394,7 +394,7 @@ export default function WagaDAOLanding() {
               {/* Website */}
               <a
                 href="https://wagadao.io"
-                className="hover:text-amber-300 transition-all duration-300 hover:scale-105 flex items-center"
+                className="hover:text-amber-300 transition-all duration-300  flex items-center"
               >
                 <Globe className="h-4 w-4 mr-1" />
                 wagadao.io
@@ -404,28 +404,28 @@ export default function WagaDAOLanding() {
               <div className="flex items-center space-x-4">
                 <a
                   href="https://linkedin.com/company/wagadao"
-                  className="hover:text-amber-300 transition-all duration-300 p-2 hover:bg-white/10 rounded-lg transform hover:scale-110 hover:rotate-12"
+                  className="hover:text-amber-300 transition-all duration-300 p-2 hover:bg-white/10 rounded-lg transform  hover:rotate-12"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
                   href="https://t.me/wagadao"
-                  className="hover:text-amber-300 transition-all duration-300 p-2 hover:bg-white/10 rounded-lg transform hover:scale-110 hover:rotate-12"
+                  className="hover:text-amber-300 transition-all duration-300 p-2 hover:bg-white/10 rounded-lg transform  hover:rotate-12"
                   aria-label="Telegram"
                 >
                   <MessageCircle className="h-5 w-5" />
                 </a>
                 <a
                   href="https://twitter.com/wagadao"
-                  className="hover:text-amber-300 transition-all duration-300 p-2 hover:bg-white/10 rounded-lg transform hover:scale-110 hover:rotate-12"
+                  className="hover:text-amber-300 transition-all duration-300 p-2 hover:bg-white/10 rounded-lg transform  hover:rotate-12"
                   aria-label="Twitter"
                 >
                   <Twitter className="h-5 w-5" />
                 </a>
                 <a
                   href="https://discord.gg/wagadao"
-                  className="hover:text-amber-300 transition-all duration-300 p-2 hover:bg-white/10 rounded-lg transform hover:scale-110 hover:rotate-12"
+                  className="hover:text-amber-300 transition-all duration-300 p-2 hover:bg-white/10 rounded-lg transform  hover:rotate-12"
                   aria-label="Discord"
                 >
                   <MessageCircle className="h-5 w-5" />
