@@ -120,7 +120,7 @@ export default function WagaDAOLanding() {
           <div className="flex items-center space-x-4">
             <Button
               onClick={isWalletConnected ? disconnectWallet : connectWallet}
-              className="bg-gradient-to-r from-amber-500 to-green-600 hover:from-amber-600 hover:to-green-700 text-white shadow-lg border border-amber-400/30 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="bg-gradient-to-r from-amber-500 to-green-600 hover:from-amber-600 hover:to-green-700 text-white"
             >
               <Wallet className="mr-2 h-4 w-4" />
               {isWalletConnected ? `${walletAddress.slice(0, 6)}...${walletAddress.slice(-4)}` : "Connect Wallet"}
